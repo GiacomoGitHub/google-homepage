@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    text-align: -webkit-center;
+    font-size: small;
+}
+
+    .logo {
+        padding-top: 160px;
+        display: flex;
+        align-items: center;
+        padding-right: 13px;
+        margin-top: 30px;
+        height: 92px;
+        width: 272px;
+        text-align: -webkit-center;
+        }
+
+    .searchBar {
+            border: 0.01px solid rgba(0,0,0,.87);
+            opacity: 20%;
+            background-color: white;
+            padding: 2px;
+            color: rgba(0,0,0,.87);
+            word-wrap: break-word;
+            display: flex;
+            flex: 100%;
+            margin: 30px 30px 30px 30px;
+            height: 34px;
+            width: 550px;
+            border-radius: 50px;
+            font-size: 16px;
+            font: 16px arial,sans-serif;
+            line-height: 34px;
+            height: 34px;
+            writing-mode: horizontal-tb;
+        }
+
+        .options [type="submit"], .gbqfba {
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            background-color: #f2f2f2;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 5px 3px 5px 3px;
+            padding: 10px 16px 25px 16px;
+            height: 25px;
+            text-align: center;
+            }
+
+        p {
+            display: inline-block;
+            font-size: small;
+            font-family: arial,sans-serif;
+            margin: 28px;
+        }
