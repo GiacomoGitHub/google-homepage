@@ -4,15 +4,20 @@ body {
     font-size: small;
 }
 
+header {
+    font-family: arial,sans-serif;
+    font-size: smaller;
+    color: rgba(0,0,0,0.87);
+    float: right;
+    margin-bottom: auto;
+}
+
     .logo {
         padding-top: 160px;
-        display: flex;
-        align-items: center;
-        padding-right: 13px;
+        padding-left: 180px;
         margin-top: 30px;
         height: 92px;
         width: 272px;
-        text-align: -webkit-center;
         }
 
     .searchBar {
@@ -25,13 +30,12 @@ body {
             display: flex;
             flex: 100%;
             margin: 30px 30px 30px 30px;
-            height: 34px;
-            width: 550px;
+            height: 40px;
+            width: 500px;
             border-radius: 50px;
             font-size: 16px;
             font: 16px arial,sans-serif;
             line-height: 34px;
-            height: 34px;
             writing-mode: horizontal-tb;
         }
 
